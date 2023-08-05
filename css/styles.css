@@ -663,6 +663,52 @@ h3 {
     background-color: rgba(46, 47, 66, 0.4);
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
+.subscribe {
+    display: flex;
+    flex-direction: column;
+    margin-left: 80px;
+    gap: 16px;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--background-color);
+}
+
+.subscribe-field {
+    background-color: #2E2F42;
+    border: 1px solid #FFFFFF;
+    border-radius: 4px;
+    padding: 8px;
+    font-weight: 400;
+}
+
+.subscribe-field::placeholder {
+    color: #FFFFFF;
+}
+
+.subscribe-button {
+    border: 1px;
+    border-radius: 4px;
+    background-color: #4D5AE5;
+    color: #FFFFFF;
+    display: block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    cursor: pointer;
+    padding-bottom: 8px;
+    padding-left: 24px;
+    padding-right: 16px;
+    padding-top: 8px
+}
+
+.subscribe-form{
+    display:flex;
+}
 .is-hidden{
     opacity: 0;
     visibility: hidden;
