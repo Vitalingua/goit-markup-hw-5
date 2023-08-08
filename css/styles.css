@@ -765,6 +765,9 @@ h3 {
     fill: #4D5AE5;
 }
 
+.checkbox-privacy:focus .tick-icon{
+
+}
 .comment-form-container {
     margin-bottom: 16px;
 }
@@ -812,10 +815,11 @@ h3 {
     fill: transparent;
 }
 
-.checkbox-privacy:checked + .checkbox-detail > .checkbox-detail-span {
-    background-color: var(--span-icon);
+.checkbox-privacy:checked + .checkbox-detail .checkbox-detail-span{
+    background-color:var(--span-icon);
     fill: var(--button-background-color);
     border: none;
+
 }
 
 .privacy-pol-link{
