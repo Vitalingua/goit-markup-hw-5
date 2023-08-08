@@ -765,9 +765,6 @@ h3 {
     fill: #4D5AE5;
 }
 
-.checkbox-privacy:focus .tick-icon{
-
-}
 .comment-form-container {
     margin-bottom: 16px;
 }
@@ -826,6 +823,9 @@ h3 {
     color: var(--primary-color);
 }
 
+.modal-window {
+    padding-bottom: 40px;
+}
 
 .final-send-button {
     display: block;
@@ -883,6 +883,13 @@ h3 {
     color: #ffffff;
 }
 
+.send-footer-icon {
+    margin-left: 16px;
+}
+.subscribe-container {
+    margin-left: 80px;
+}
+
 .subscribe-button {
     border: 1px;
     border-radius: 4px;
@@ -901,10 +908,6 @@ h3 {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
     gap: 24px;
-    padding-bottom: 8px;
-    padding-left: 24px;
-    padding-right: 16px;
-    padding-top: 8px
 }
 
 
@@ -912,8 +915,6 @@ h3 {
     display: flex;
     gap: 24px;
 }
-
-
 
 .is-hidden {
     opacity: 0;
