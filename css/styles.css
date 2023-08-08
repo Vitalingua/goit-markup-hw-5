@@ -824,9 +824,10 @@ h3 {
     fill: transparent;
 }
 
-.checkbox-privacy:checked .checkbox-detail-span{
+.checkbox-privacy:checked + .checkbox-detail .checkbox-detail-span{
     background-color:var(--span-icon);
-    fill: #F4F4FD;
+    fill: var(--button-background-color);
+    border: none;
 
 }
 
