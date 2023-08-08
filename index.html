@@ -338,7 +338,7 @@
             </div>
             <div class="subscribe-container">
                 <p class="subsribe-text">Subscribe</p>
-                <form class="subscribe-form">
+                <form class="subscribe-mail">
                     <label class="subscribe">
                         <input class="subscribe-field" type="email" name="email" placeholder="E-mail" />
                     </label>
@@ -349,6 +349,7 @@
             </div>
         </div>
     </footer>
+
     <div data-modal="" class="modal-container is-hidden">
         <div class="modal">
             <button type="button" data-modal-close class="modal-button">
@@ -358,7 +359,7 @@
             </button>
             <p class="feedback">Leave your contacts and we will call you back</p>
             <form>
-                <div class="name-form-container">
+                <div class="form-container">
                     <label class="name-form-space" for="user-name">Name</label>
                     <div class="send-container">
                         <input class="info-input" id="user-name" name="user-name" type="text">
@@ -367,7 +368,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="name-form-container">
+                <div class="form-container">
                     <label class="name-form-space" for="user-phone">Phone</label>
                     <div class="send-container">
                         <input class="info-input" id="user-phone" name="user-phone" type="text">
@@ -376,7 +377,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="name-form-container">
+                <div class="form-container">
                     <label class="name-form-space" for="user-mail">Email</label>
                     <div class="send-container">
                         <input for="user-mail"class="info-input" id="user-mail" name="user-mail" type="text">
@@ -385,7 +386,7 @@
                         </svg>
                     </div>
                 </div>
-                <div class="name-form-container">
+                <div class="comment-form-container">
                     <label class="name-form-space" for="user-comment">Comment</label>
                     <textarea class="comment-area" id="user-comment" name="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
                     <div class="send-container">
@@ -395,7 +396,8 @@
                 </div>
                 <div class="checkbox-container">
                     <input class="checkbox-privacy visually-hidden" value="true" type="checkbox" name="user-privacy" id="user-privacy">
-                    <label for="user-privacy" class="checkbox-detail">I accept the terms and conditions of the<span class="checkbox-detail-span"><a class="privacy-pol-link" href="#">Privacy Policy</a><svg><use href=""></use></svg></span></label>
+                    <label for="user-privacy" class="checkbox-detail">I accept the terms and conditions of the<span class="checkbox-detail-span"><a class="privacy-pol-link" href="#">Privacy Policy</a><svg width="10" height="8" class="tick-icon"
+                        ><use href="./images/icons.svg#icon-Checkbox"></use></svg></span></label>
                 </div>
                 <button class="final-send-button" type="button"></button>
             </form>

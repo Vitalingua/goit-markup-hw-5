@@ -61,6 +61,7 @@ img {
     --button: #e7e9fc;
     --icon-color: #8e8f99;
     --footer-icon: #f4f4fd;
+    --span-icon: #404bbf;
 }
 
 .header-logo-one {
@@ -566,7 +567,7 @@ h3 {
     color: var(--icon-color);
 }
 
-.subscribe-text {
+.subscribe-mail {
     margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
@@ -722,7 +723,7 @@ h3 {
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.name-form-container {
+.form-container {
     margin-bottom: 8px;
 }
 
@@ -732,8 +733,116 @@ h3 {
     letter-spacing: 0.04em;
     color: var(--icon-color);
     display: block;
+    margin-bottom: 4px;
 }
 
+.info-input {
+    width: 100%;
+    height: 40px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding-left: 38px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.info-input:focus {
+    border-color: #4D5AE5;
+}
+
+.post-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.info-input:focus .post-icon {
+    fill: #4D5AE5;
+}
+
+.comment-form-container {
+    margin-bottom: 16px;
+}
+
+.comment-area {
+    width: 100%;
+    height: 120px;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 4px;
+    background-color: transparent;
+    padding: 8px 16px;
+    outline: transparent;
+    resize: none;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.comment-area:focus {
+    border-color: #4D5AE5;
+}
+
+.checkbox-container {
+    margin-bottom: 24px;
+}
+
+.checkbox-detail {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color:var(--icon-color);
+}
+
+.checkbox-detail-span {
+    width: 16px;
+    height: 16px;
+    border: 1px solid rgba(46, 47, 66, 0.4);
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill: transparent;
+}
+
+.checkbox-privacy:checked .checkbox-detail-span{
+    background-color:var(--span-icon);
+    fill: #F4F4FD;
+
+}
+
+.privacy-pol-link{
+    color: var(--primary-color);
+}
+
+.final-send-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    background-color: #4D5AE5;
+    border: none;
+    border-radius: 4px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.send-container {
+    position: relative;
+}
 .feedback {
     font-weight: 500;
     font-size: 16px;
@@ -756,6 +865,7 @@ h3 {
     width: 264px;
     height: 40px;
     display: flex;
+    color: #ffffff;
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
@@ -768,7 +878,7 @@ h3 {
 }
 
 .subscribe-field::placeholder {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 .subscribe-button {
