@@ -797,7 +797,7 @@ h3 {
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em;
-    color:var(--icon-color);
+    color: var(--icon-color);
 }
 
 .checkbox-detail-span {
@@ -812,13 +812,13 @@ h3 {
     fill: transparent;
 }
 
-.checkbox-privacy:checked + .checkbox-detail > .checkbox-detail-span {
+.checkbox-privacy:checked+.checkbox-detail>.checkbox-detail-span {
     background-color: var(--span-icon);
     fill: var(--button-background-color);
     border: none;
 }
 
-.privacy-pol-link{
+.privacy-pol-link {
     color: var(--primary-color);
 }
 
