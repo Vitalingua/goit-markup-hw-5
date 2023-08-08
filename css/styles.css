@@ -763,6 +763,9 @@ h3 {
     fill: #4D5AE5;
 }
 
+.checkbox-privacy:focus .tick-icon{
+
+}
 .comment-form-container {
     margin-bottom: 16px;
 }
