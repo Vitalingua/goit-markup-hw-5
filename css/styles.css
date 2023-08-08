@@ -812,11 +812,10 @@ h3 {
     fill: transparent;
 }
 
-.checkbox-privacy:checked + .checkbox-detail .checkbox-detail-span{
-    background-color:var(--span-icon);
+.checkbox-privacy:checked+.checkbox-detail .checkbox-detail-span {
+    background-color: var(--span-icon);
     fill: var(--button-background-color);
     border: none;
-
 }
 
 .privacy-pol-link{
