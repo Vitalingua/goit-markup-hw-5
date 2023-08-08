@@ -737,6 +737,7 @@ h3 {
     margin-bottom: 8px;
 }
 
+
 .name-form-space {
     font-size: 12px;
     line-height: 1.17;
@@ -769,7 +770,7 @@ h3 {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-input:focus .post-icon {
+.info-input:focus + .post-icon {
     fill: #4D5AE5;
 }
 
@@ -833,6 +834,7 @@ h3 {
     color: var(--primary-color);
 }
 
+
 .final-send-button {
     display: block;
     min-width: 169px;
@@ -847,6 +849,7 @@ h3 {
     border-radius: 4px;
     font-weight: 500;
     line-height: 1.5;
+    margin: 0 auto;
     letter-spacing: 0.04em;
     color: #ffffff;
     cursor: pointer;
