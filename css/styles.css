@@ -760,7 +760,7 @@ h3 {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.info-input:focus + .post-icon {
+.info-input:focus + .post-icon{
     fill: #4D5AE5;
 }
 
@@ -798,6 +798,7 @@ h3 {
     line-height: 1.17;
     letter-spacing: 0.04em;
     color:var(--icon-color);
+    display: block;
 }
 
 .checkbox-detail-span {
@@ -812,11 +813,10 @@ h3 {
     fill: transparent;
 }
 
-.checkbox-privacy:checked + .checkbox-detail .checkbox-detail-span{
-    background-color:var(--span-icon);
+.checkbox-privacy:checked+.checkbox-detail .checkbox-detail-span {
+    background-color: var(--span-icon);
     fill: var(--button-background-color);
     border: none;
-
 }
 
 .privacy-pol-link{
@@ -871,6 +871,7 @@ h3 {
     font-size: 12px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     padding-left: 16px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
