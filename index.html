@@ -354,7 +354,7 @@
     </footer>
 
     <div data-modal="" class="modal-container is-hidden">
-        <div class="modal">
+        <div class="modal" style="max-height: 584px;">
             <button type="button" data-modal-close class="modal-button">
                 <svg class="modal-icon" width="8" height="8">
                     <use href="./images/icons.svg#icon-close"></use>
@@ -391,23 +391,27 @@
                 </div>
                 <div class="comment-form-container">
                     <label class="name-form-space" for="user-comment">Comment</label>
-                    <textarea class="comment-area" id="user-comment" name="user-comment" cols="30" rows="10" placeholder="Text input"></textarea>
+                    <textarea class="comment-area" id="user-comment" name="user-comment" cols="30" rows="10"
+                        placeholder="Text input"></textarea>
                 </div>
                 <div class="checkbox-container">
-                    <input class="checkbox-privacy visually-hidden"  id="user-privacy" name="user-privacy" type="checkbox" value="true">
+                    <input class="checkbox-privacy visually-hidden" id="user-privacy" name="user-privacy" type="checkbox"
+                        value="true">
                     <label class="checkbox-detail" for="user-privacy">
                         <span class="checkbox-detail-span">
-                        <svg class="tick-icon" width="10" height="8">
-                            <use href="./images/icons.svg#icon-check"></use>
-                        </svg>
+                            <svg class="tick-icon" width="10" height="8">
+                                <use href="./images/icons.svg#icon-checkbox"></use>
+                            </svg>
                         </span>
                         I accept the terms and conditions of the
-                        <a class="privacy-pol-link" href>Privacy Policy</a></label>
+                        <a class="privacy-pol-link" href>Privacy Policy</a>
+                    </label>
                 </div>
                 <button class="final-send-button" type="submit">Send</button>
             </form>
         </div>
     </div>
+
     <script src="./js/modal.js"></script>
     </body>
     
