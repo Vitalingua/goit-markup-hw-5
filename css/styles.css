@@ -826,6 +826,8 @@ h3 {
 
 .modal-window {
     padding-bottom: 40px;
+    height:584px;
+    
 }
 
 .final-send-button {
@@ -844,6 +846,13 @@ h3 {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.final-send-button:hover {
+    background-color: #404BBF;
+}
+
+.final-send-button:focus {
+    background-color: #404BBF;
+}
 .send-container {
     position: relative;
 }
@@ -912,9 +921,15 @@ h3 {
     letter-spacing: 0.04em;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     cursor: pointer;
-    gap: 24px;
 }
 
+.subscribe-button:hover {
+    background-color: #404BBF;
+}
+
+.subscribe-button:focus {
+    background-color: #404BBF;
+}
 
 .subscribe-form {
     display: flex;
@@ -938,6 +953,7 @@ h3 {
     background-color: #404bbf;
     border: none;
     fill: #ffffff;
+    
 }
 
 .modal-icon {
